@@ -1,0 +1,264 @@
+@charset "UTF-8";
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*共通スタイル*/
+.section-inner{
+    margin: 0 auto;
+    width: 1080px;
+}
+.section-wrapper{
+    padding: 60px 0;
+}
+.section-inner2{
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+/*icon*/
+
+.header-icon{
+    width: 160px;
+}
+.icon-img + .icon-img{
+    margin-left: 15px;
+}
+.icon-list{
+    display: flex;
+}
+
+/*nav*/
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    color: rgb(252, 252, 252);
+}
+.nav-item + .nav-item{
+    margin-left: 40px;
+}
+
+
+/*head*/
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    left: 5%;
+    z-index: 100;
+}
+.header-img{
+    width: 160px;
+}
+
+/*kv*/
+
+.kv{
+    width: 100%;
+    position: relative;
+}
+.__index{
+    height: 760px;
+    background-image: url(../img/kv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.kv-copy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*concept*/
+.__concept::before{
+    content:'コンセプト';
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.section-ttl {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color:#DBAF89 ;
+   position: relative;
+}
+.concept-txt-main{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.concept-txt-sub{
+    margin-top: 24px;
+    text-align: center;
+}
+.concept-img-box{
+    height: 350px;
+    margin-top: 80px;
+}
+.concept-img{
+object-fit: cover;
+object-position: top;
+}
+/*concept-detail*/
+.concept-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.concept-detail-img-wrapper{
+    display: flex;
+    width: 580px;
+
+}
+.concept-detail-box{
+    width: 280px;
+    height: 390px;
+}
+.concept-detail-box:nth-child(1){
+    margin-top: 60px;
+    }
+
+.concept-detail-box:nth-child(2){
+    margin: 0 0 60px 20px;
+}
+.concept-detail-img{
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.concept-detail-content{
+    width: 400px;
+}
+.concept-detail-ttl{
+    font-size: 32px;
+    font-weight: bold;
+}
+.concept-detail-txt{
+    margin-top: 40px;
+}
+/*menu*/
+.menu{
+    background-color:#FFE7D0 ;
+}
+.menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.menu-content{
+    margin-top: 16px;
+}
+.menu-txt{
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-price{
+    margin-top: 8px;
+}
+.menu-item{
+    width: 340px;
+}
+.menu-img{
+    height: 220px;
+}
+.menu-img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+.menu-item:nth-of-type(n+4){
+  margin-top: 40px;
+}
+.btn-link{
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 26px;
+    border: 1px solid  black;
+}
+.btn{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*information*/
+.__info::before{
+    content:'お知らせ';
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.info-item{
+   border-bottom: 1px solid  black;
+}
+.info-item + .info-item{
+    margin-top: 40px;
+}
+.info-ttl{
+    padding: 1px 8px;
+    font-size: 12px;
+    margin-left: 24px;
+}
+.info-txt{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    
+}
+.__yellow{
+    border: 1px solid yellow;
+    color: yellow;
+}
+.__red{
+    color: red;
+    border: 1px solid red;
+}
+/*access*/
+.__access::before{
+    content:'アクセス';
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.section-inner3{
+    width: 990px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*footer*/
+.footer-icon{
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-nav{
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-header-img{
+    margin: 0 auto;
+}
+.footer-copy{
+    text-align: center;
+    font-size: 12px;
+}
